@@ -2,6 +2,10 @@
 
 This repository contains Python implementations of a house-price linear-regression assignment for TNK129 Machine Learning for Smart Cities.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_1/task1_training_3d.png" alt="Task 1 linear regression preview" width="800" />
+</p>
+
 - The [`assignment_1/`](assignment_1/) folder contains four independent task scripts, their setup instructions, and generated figures and training animations.
 - [`linear_regression_house_prices.py`](linear_regression_house_prices.py) and [`linear_regression_house_prices.ipynb`](linear_regression_house_prices.ipynb) contain a combined implementation.
 - The house-price data is included at the repository root and in `assignment_1/`, so both implementations can run from their own folder.
