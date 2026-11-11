@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run assignment 1 task 1",
+            "type": "process",
+            "command": "python3",
+            "args": ["assignment_1/task_1.py"],
+            "options": {"cwd": "${workspaceFolder}"},
+            "problemMatcher": []
+        }
+    ]
+}

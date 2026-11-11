@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run task 1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/task_1.py",
+            "console": "internalConsole",
+            "cwd": "${workspaceFolder}",
+            "python": "/Library/Developer/CommandLineTools/usr/bin/python3"
+        }
+    ]
+}
