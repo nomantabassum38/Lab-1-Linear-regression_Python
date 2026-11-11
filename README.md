@@ -2,20 +2,28 @@
 
 This repository contains Python implementations of a house-price linear-regression assignment for TNK129 Machine Learning for Smart Cities.
 
-## Project preview
+## Project animations
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_1/task1_training_3d.png" alt="Task 1 preview" width="420" />
-  <img src="https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_2/task2_training_3d.png" alt="Task 2 preview" width="420" />
-</p>
+The animations below show the fitted model and the training/loss-surface visualization for each task.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_3/task3_training_3d.png" alt="Task 3 preview" width="420" />
-  <img src="https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_4/task4_training_3d.png" alt="Task 4 preview" width="420" />
-</p>
+### Task 1
+
+![Task 1 training animation](https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_1/task1_training.gif)
+
+### Task 2
+
+![Task 2 training animation](https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_2/task2_training.gif)
+
+### Task 3
+
+![Task 3 training animation](https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_3/task3_training.gif)
+
+### Task 4
+
+![Task 4 training animation](https://raw.githubusercontent.com/nomantabassum38/Lab-1-Linear-regression_Python/main/assignment_1/figures/task_4/task4_training.gif)
 
 - The [`assignment_1/`](assignment_1/) folder contains four independent task scripts, their setup instructions, and generated figures and training animations.
-- [`linear_regression_house_prices.py`](linear_regression_house_prices.py) and [`linear_regression_house_prices.ipynb`](linear_regression_house_properties.ipynb) contain a combined implementation.
+- [`linear_regression_house_prices.py`](linear_regression_house_prices.py) and [`linear_regression_house_prices.ipynb`](linear_regression_house_prices.ipynb) contain a combined implementation.
 - The house-price data is included at the repository root and in `assignment_1/`, so both implementations can run from their own folder.
 
 ## Setup
@@ -68,7 +76,7 @@ The objective is half the sum of squared errors, without dividing by the number 
 
 ## Training animations and figures
 
-The task scripts save plots and training animations under `assignment_1/figures/`. Each task's GIF shows the fitted line and rotating 3D loss surface. Tasks 2–4 animate recorded training iterations; task 1 shows the zero model and the direct normal-equation solution. The 3D axes represent intercept, slope, and `log10(loss)`. Matplotlib is used; Manim is not required.
+The task scripts save plots and training animations under `assignment_1/figures/`. Tasks 2–4 animate recorded training iterations; task 1 shows the zero model and the direct normal-equation solution. The 3D axes represent intercept, slope, and `log10(loss)`. Matplotlib is used; Manim is not required.
 
 ## Repository
 
